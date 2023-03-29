@@ -2,7 +2,7 @@ from flask import Flask
 from datetime import datetime
 app = Flask(__name__)
 
-data = "Hi Loki"
+data = "Hi Loki updated"
 
 @app.route("/")
 def index():
